@@ -130,6 +130,17 @@ ul li a:hover{
     text-decoration: none;
 }
 
+
+.box2 button:hover{
+    background-color: grey;
+}
+
+.box2 button:active{
+    position: relative;
+    bottom: 2px;
+    top: 2px;
+}
+
 /* Best seller section starts */
 
 #bestseller {
