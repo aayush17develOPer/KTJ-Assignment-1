@@ -1,0 +1,87 @@
+#navbar{
+    flex-direction: column;
+    /* height: ; */
+}
+
+ul{
+    flex-direction: column;
+}
+
+#logo img{
+    text-align: center;
+    margin-left: 46%;
+    height: 30%;
+    width: 30px;
+}
+
+ul li{
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    /* font-size: 0.7rem; */
+}
+/* 
+.box1 h2 {
+    font-size: 1.8rem;
+}
+
+.box1 p {
+    font-size: 1em;
+} */
+
+.box2 button {
+    padding: 0.3%;
+    width: 85%;
+    height: 70%;
+    border-radius: 23px;
+}
+
+.box2 button p{
+    font-size: 1.5rem;
+}
+
+#bestseller header h2{
+    font-size: 1.4rem;
+}
+
+.bookX h2{
+    font-size: 1.3rem;
+}
+
+.bookY h2{
+    font-size: 1.3rem;
+}
+
+#recommended header{
+    height: 10%;
+}
+
+#recommended header h2{
+    font-size: 1.7rem;
+}
+
+.search {
+    height: 25%;
+    width: 85%;
+    font-size: 1.8rem;
+}
+
+.RbookX h2{
+    font-size: 1.3rem;
+}
+
+.RbookY h2{
+    font-size: 1.3rem;
+}
+
+.price_button h3{
+    font-size: 1.3rem;
+}
+
+.review h2{
+    font-size: 1.5rem;
+}
+
+.review p{
+    font-size: 0.7rem;
+}
