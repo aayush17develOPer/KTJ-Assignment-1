@@ -284,7 +284,7 @@ h4 {
     margin-top: 2%;
     border: 5px solid white;
     border-radius: 25px;
-    height: 10%;
+    height: 16%;
     width: 70%;
     text-align: center;
     /* align-items: center; */
@@ -308,7 +308,7 @@ h4 {
 }
 
 .search {
-    height: 50%;
+    height: 60%;
     width: 80%;
     font-size: 2.5rem;
     /* border: 3px solid grey; */
