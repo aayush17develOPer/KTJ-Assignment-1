@@ -1,0 +1,514 @@
+html {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+/* Navbar+logo styling starts  */
+#navbar {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 0px;
+    /* background-color: yellow; */
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    justify-content: space-around;
+}
+
+#logo img {
+    margin: 15px;
+    /* border: 2px solid black; */
+    height: 75%;
+    width: 80px;
+    z-index: -1;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+}
+
+ul li {
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    position: relative;
+    bottom: 2px;
+}
+
+/* Navbar+logo styling ends  */
+
+/* Home page designing starts */
+
+#banner {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+
+#banner::before {
+    content: "";
+    position: absolute;
+    background: url('/Pics/BG1_KTJ.webp');
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid blue; */
+    z-index: -1;
+}
+
+.box {
+    /* border: 2px solid white; */
+    border-radius: 23px;
+    font-family: 'Bree Serif', serif;
+}
+
+.box1 {
+    text-align: center;
+    margin-top: 0px;
+    height: 75%;
+}
+
+.box1 img {
+    width: 7%;
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.box1 h2 {
+    font-size: 3.5rem;
+}
+
+.box1 p {
+    font-size: 2em;
+}
+
+.box2 {
+    height: 14%;
+    width: 40%;
+}
+
+.box2 button {
+    width: 100%;
+    height: 100%;
+    border-radius: 23px;
+}
+
+.box2 button p {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+}
+
+.box2 button p a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Best seller section starts */
+
+#bestseller {
+    margin-top: 16.1%;
+    padding: 1%;
+    display: flex;
+    width: 97.5%;
+    height: 1000px;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#bestseller::before {
+    content: "";
+    position: absolute;
+    background: url('/Pics/BG1_KTJ.webp');
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid blue; */
+    z-index: -1;
+}
+
+#bestseller header {
+    border: 5px solid white;
+    border-radius: 25px;
+    margin-top: 1%;
+    height: 10%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+#bestseller header h2 {
+    margin: 0;
+    font-size: 3.2rem;
+    color: white;
+}
+
+.First3 {
+    display: flex;
+    width: 100%;
+    height: 44%;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-bottom: 1%;
+}
+
+.bookX {
+    width: 38%;
+    height: 95%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(144, 98, 144);
+    text-align: center;
+    /* border: 2px solid grey; */
+}
+
+.bookX img {
+    width: 50%;
+    height: 150px;
+}
+
+.bookX h2 {
+    font-size: 2rem;
+}
+
+.Second3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 42%;
+    /* border: 2px solid black; */
+}
+
+.bookY {
+    height: 87%;
+    width: 38%;
+    height: 95%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(144, 98, 144);
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.bookY img {
+    width: 50%;
+    height: 150px;
+}
+
+.bookY h2 {
+    font-size: 2rem;
+}
+
+.price_button h3 {
+    font-size: 1.7rem;
+}
+
+.add {
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+
+.add:focus {
+    background-color: rgb(84, 181, 84);
+}
+
+h3 {
+    text-align: right;
+}
+
+h4 {
+    text-align: end;
+    font-size: 1.6rem;
+    color: rgb(247, 6, 6);
+    margin: 0;
+}
+
+/* Recommmended section starts */
+
+#recommended {
+    /* margin-top: 16.1%; */
+    padding: 1%;
+    display: flex;
+    width: 97.5%;
+    height: 1000px;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#recommended::before {
+    content: "";
+    position: absolute;
+    background: url('/Pics/BG1_KTJ.webp');
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid green; */
+    z-index: -1;
+}
+
+#recommended header {
+    margin-top: 2%;
+    border: 5px solid white;
+    border-radius: 25px;
+    height: 16%;
+    width: 70%;
+    text-align: center;
+    /* align-items: center; */
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+#recommended header h2 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: white;
+}
+
+#recommended header img {
+    position: relative;
+    top: 14%;
+    height: 50%;
+    width: 8%;
+
+}
+
+.search {
+    height: 50%;
+    width: 80%;
+    font-size: 2.5rem;
+    /* border: 3px solid grey; */
+    border-radius: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.RFirst3 {
+    display: flex;
+    width: 100%;
+    height: 38%;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-bottom: 2%;
+}
+
+.RbookX {
+    width: 38%;
+    height: 95%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(144, 98, 144);
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.RbookX img {
+    width: 50%;
+    height: 100px;
+}
+
+.RbookX h2 {
+    font-size: 2rem;
+}
+
+.RSecond3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 38%;
+    /* border: 2px solid black; */
+}
+
+.RbookY {
+    height: 95%;
+    width: 38%;
+    margin: 1%;
+    border-radius: 20px;
+    background-color: rgb(144, 98, 144);
+    text-align: center;
+    /* border: 2px solid grey; */
+}
+
+.RbookY img {
+    width: 50%;
+    height: 100px;
+}
+
+.RbookY h2 {
+    font-size: 2rem;
+}
+
+/* Recommendatino section over, now review section begins */
+
+#feedback {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid white; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback::before {
+    content: "";
+    position: absolute;
+    background: url('/Pics/BG1_KTJ.webp');
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid green; */
+    z-index: -1;
+}
+
+#feedback header h1 {
+    display: block;
+    height: 41%;
+    width: 461%;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 5% 0;
+    /* border-radius: 25px; */
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.4rem;
+    position: relative;
+    right: 183%;
+}
+
+.review {
+    text-align: center;
+    height: 43%;
+    width: 70%;
+    margin: 0.5%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+
+.review img {
+    width: 30%;
+    height: 50%;
+}
+
+/* Review section over, now contact us section begins */
+
+#ContactUs {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border: 4px solid orange;
+    border-radius: 30px;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ContactUs::before {
+    content: "";
+    position: absolute;
+    background: url('/Pics/BG1_KTJ.webp');
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid green; */
+    z-index: -1;
+}
+
+#ContactUs.Contact {
+
+    height: 20%;
+    width: 60%;
+    color: white;
+    border: 2px solid black;
+}
+
+#Box2Vert {
+    display: flex;
+    height: 60%;
+    width: 70%;
+    /* border: 2px solid black; */
+}
+
+.CONTACTUS {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    font-size: 1.3rem;
+    margin: 2%;
+}
+
+.item {
+    height: 61%;
+    width: 98%;
+}
+
+.item4 {
+    width: 50%;
+    height: 90%;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+#message {
+    width: 100%;
+    height: 100%;
+}
+
+#ContactUs button {
+    height: 15%;
+    width: 40%;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black;
+    margin: 1%;
+    cursor: pointer;
+}
+
+#ContactUs button:hover{
+    background-color: grey;
+}
+
+#ContactUs button:active{
+    position: relative;
+    bottom: 2px;
+    top: 2px;
+}
