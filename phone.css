@@ -85,3 +85,7 @@ ul li{
 .review p{
     font-size: 0.7rem;
 }
+
+#footer{
+    overflow: scroll;
+}
