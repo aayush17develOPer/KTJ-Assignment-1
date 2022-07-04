@@ -72,7 +72,7 @@ ul li a:hover{
 #banner::before {
     content: "";
     position: absolute;
-    background: url('/Pics/BG1_KTJ.webp');
+    background: url('Pics/BG1_KTJ.webp');
     width: 100%;
     height: 1000px;
     /* border: 2px solid blue; */
@@ -273,7 +273,7 @@ h4 {
 #recommended::before {
     content: "";
     position: absolute;
-    background: url('/Pics/BG1_KTJ.webp');
+    background: url('Pics/BG1_KTJ.webp');
     width: 100%;
     height: 1000px;
     /* border: 2px solid green; */
@@ -386,7 +386,7 @@ h4 {
 #feedback::before {
     content: "";
     position: absolute;
-    background: url('/Pics/BG1_KTJ.webp');
+    background: url('Pics/BG1_KTJ.webp');
     width: 100%;
     height: 1000px;
     /* border: 2px solid green; */
@@ -442,7 +442,7 @@ h4 {
 #ContactUs::before {
     content: "";
     position: absolute;
-    background: url('/Pics/BG1_KTJ.webp');
+    background: url('Pics/BG1_KTJ.webp');
     width: 100%;
     height: 700px;
     /* border: 2px solid green; */
