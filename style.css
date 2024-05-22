@@ -32,7 +32,8 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    width: 70%;
+    width: 80%;
+    justify-content: space-around;
 }
 
 ul li {
